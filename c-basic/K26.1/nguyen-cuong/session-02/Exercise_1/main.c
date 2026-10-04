@@ -1,16 +1,18 @@
 #include <stdio.h>
 
-int main(){
+int main() {
 
-    int a, b;
-    
-    printf("Nhap so nguyen a: ");
-    scanf("%d", &a);
+  int a = 0, b = 0; // Khai báo biến để cộng
 
-    printf("Nhap so nguyen b: ");
-    scanf("%d", &b);
+  printf("Nhap so nguyen a: "); // Nhập số
+  scanf("%d", &a);
 
-    printf("Tong: %d", a + b);
+  printf("Nhap so nguyen b: ");
+  scanf("%d", &b);
 
-    return 0;
+  int sum = a + b; // Tạo biến tổng
+
+  printf("Tong: %d", sum);
+
+  return 0;
 }
